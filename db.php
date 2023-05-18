@@ -4,7 +4,7 @@ function conn(){
     $hostname = "localhost";
     $usuariodb = "root";
     $password = "";
-    $dbname = "proyecto1";
+    $dbname = "pt";
 
     // Generando la conexion con el servidor
     $conectar = mysqli_connect($hostname, $usuariodb, $password, $dbname);
